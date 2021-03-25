@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    background: #d2dae2;
+    color: #FFF;
+    margin: 0;
+    font-size: 1rem;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
+    
+} 
+  
+
+#principal {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #2b2a2a;
+    padding: 10px;
+    border-radius: 12px;
+    
+}
+
+#titulo {
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 50px;
+    text-transform: uppercase;
+   
+}
+
+#topo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;     
+}
+
+
+input[type=text] {
+    width: 10%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=button] {
+    border: none;
+    width: 17%;
+    float: left;
+    height: 35px;
+    font-size: 20px-;
+}
+
+button, input[type=button] { cursor: pointer;}
+
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0,0,0,.5);
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Animação do modal de cadastro */
+@keyframes modal {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -68px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Chama a animação */
+.mostrar .modal {
+    animation: modal .3s;
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.modal {
+    position: relative;
+    background: white;
+    width:30%;
+    max-width: 800px;
+    padding: 10px;
+    border: 3px solid #2b2a2a;
+    border-radius: 20px;
+    box-shadow: 0 0 0 4px white;
+
+}
+
+.modal label {
+    color: black;
+    position: relative;
+    right: 0px;
+}
+
+.modal input[type=text] {
+    width: 250px; 
+    position: relative;
+    padding: 0px;
+    border-radius: 12px; 
+    outline: none;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-right: 2px;
+    left: 5px; 
+}
+
+.modal input[type=radio] {
+    right: -30px;
+    position: relative;
+}
+
+ .modal input[type=button] {
+    width: 100%;
+    display: flex;
+    border-radius: 22px;
+    background: #1f1e1e;
+    color: #FFF;
+    outline: none;
+    margin-right: 3px;
+    /* margin-left: 163px; */
+    font-size: 24px;
+    justify-content: center;
+
+} 
+
+.modal input[type=button]:hover{
+    background:#4e4d4d; 
+    cursor: pointer;
+}
+
+
+.janelaCadastroBtnFechar {
+    position: relative;
+    top: -38px;
+    right: -525px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #2d2c2c;
+    background: #2d2c2c;
+    color: #FFF;
+    outline: none;
+    
+}
+
+h1.subtitulo {
+    top: -39px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 42px;
+    font-weight: 200;
+}
+
+.subtitulo {
+    color: black;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#lista {  /* lista UL*/
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 20px;
+    max-height: 620px;
+    overflow-y: auto;
+    
+}
+
+
+#lista li{
+    padding: 20px;
+    background: #191818;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px 15px 0px;
+    height: 25px;
+    max-width: 100%;
+} 
+
+#lista a{
+    padding: 20px;
+}
+
+#lista a:link {
+    color:#ff0000;
+    text-decoration:none;
+}
+
+#lista  a:visited {
+    color:#485460;
+    text-decoration:none;
+}
+
+#lista  a:hover {
+    color:#000000;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+#lista button {
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #191818;
+    background: #191818;
+    color: #FFF;
+    outline: none;
+    margin-right: 2px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#lista button:hover {
+    background: #1f1e1e;
+    cursor: pointer;
+}
+
+#mensagem {  
+    border-radius: 5px;
+    margin: 20px; 
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #191818;
+    text-align: center;
+    max-width: 100%;
+}
+
+#mensagem a{
+
+    border-radius: 5px;
+    margin: 20px; 
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #191818;
+    text-align: center;;
+    text-decoration: none;
+}
+
+#mensagem  a:hover {
+    text-decoration:none;
+    cursor: pointer;
+} 
+
+#btnExcluir {
+    border-radius: 20px;
+    border: 1px solid #191818;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #2b2a2a;
+    color: #FFF;
+    outline: none;
+}
+
+#btnExcluir:hover {
+    background: #b6b5b5;
+}
+
+.flex-outer,
+.flex-inner, 
+.flex-inner1  {
+  list-style-type: none;
+  padding: 0;
+  color: black;
+}
+
+.flex-outer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex-outer li, .flex-inner, .flex-inner1  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+ 
+.flex-outer > li > label + *,
+.flex-inner, .flex-inner1  {
+  flex: 1 0 220px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 14px;
+  font-weight:300;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.flex-inner span {
+    padding: 14px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    right: -23px;
+    position: relative;
+
+}
+
+.flex-inner label, .flex-inner1 label  {
+    font-weight: 300;
+}
+
+.flex-outer > li > label + *,
+.flex-inner, .flex-inner1 {
+  flex: 1 0 220px;
+}
+
+.flex-outer li input:not([type='radio']),
+.flex-outer li textarea {
+  padding: 20px;
+  border: none;
+
+}
+.flex-outer li p {
+    margin: 0;
+  }
+
+
+.flex-outer > li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.flex-inner, .flex-inner1 {
+    padding: 0 8px;
+    justify-content: space-around;
+
+}
+
+
+#convidadoMasculino h3, #convidadoFeminino h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+}

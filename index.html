@@ -1,0 +1,114 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Link para o css -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+   
+    <!-- Biblioteca do sweet alert 2 -->
+    <script src="js/sweetalert.js"></script>
+    
+    <link rel="icon" type="img/png" href="img/icon.png" />
+    
+    <!-- Link para os icones  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>  
+
+    <title> Lista de Convidados </title>
+</head>
+<body>
+    <div id="principal">
+        <h1 id="titulo">Lista de Convidados</h1>
+        <div id="topo">
+            <!-- Lista -->
+            <ul id="lista">  </ul>
+          </div>
+         
+        <!-- Mensagem -->
+        <div id="mensagem">  
+            <a id="btnModal">  Bem vindo!! Clique aqui para cadastrar um novo convidado: </a>    
+        </div>
+
+        <!-- Formulario de Cadastro em um Modal -->
+        <div id="modalCadastro" class="modal-container">
+            <div class="modal">
+                <!-- Botão para fechar modal -->
+                <button class="janelaCadastroBtnFechar">
+                    <i  id ="btnFechar" class="fa fa-remove fa-2x"> </i>
+                </button>
+                
+                <!-- Subtitulo -->
+                <h1 class="subtitulo"> Cadastro </h3>
+                
+                <!-- Formulário de Cadastro -->
+                <form method="POST" action="">
+                    <ul class="flex-outer">
+                        <li>
+                            <!-- Nome -->
+                            <label for="nome"> Nome: </label>
+                            <input id="nome" type="text" 
+                            placeholder="Digite o nome do convidado" onfocus="if (this.placeholder=='Digite o nome do convidado') 
+                            this.placeholder='';" onblur="if (this.placeholder=='') this.placeholder='Digite o nome do convidado'"
+                            required="required"  size="21px"  />
+                        </li>
+                        <li>
+                            <!-- Idade -->    
+                            <label for="idade"> Idade: </label>
+                            <input id="idade" type="text" 
+                            placeholder="Digite a idade do convidado" onfocus="if (this.placeholder=='Digite a idade do convidado') 
+                            this.placeholder='';" onblur="if (this.placeholder=='') this.placeholder='Digite a idade do convidado'"
+                            size="21px"/>
+                        </li>
+                        <li>
+                            <!-- Cpf -->
+                            <label for="cpf"> Cpf: </label>            
+                            <input id="cpf" type="text"
+                            placeholder="Digite o cpf do convidado    " onfocus="if (this.placeholder=='Digite o cpf do convidado    ') 
+                            this.placeholder='';" onblur="if (this.placeholder=='') this.placeholder='Digite o cpf do convidado    '"
+                              size="21px"/>
+                        </li>
+                        <li>
+                            <!-- Genêro -->
+                            <p>Genêro:</p>
+                            <ul class="flex-inner">
+                                <li>
+                                    <form method="POST" >
+                                        <input type="radio" name="genero" value="Masculino"> 
+                                            <span>Masculino </span> 
+                                        <br>
+                                        <input type="radio" name="genero" value="Feminino"> 
+                                            <span>Feminino </span> 
+                                    </form>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- Vip -->
+                            <p>Vip:</p>
+                            <ul class="flex-inner">
+                                <li>
+                                    <form method="POST" >
+                                        <input type="radio" name="vip" value="Sim"> 
+                                            <span>Sim</span>  
+                                        <br>
+                                        <input type="radio" name="vip" value="Não"> 
+                                            <span> Não </span>
+                                    </form>
+                                </li>
+                                <!-- more list items here -->
+                            </ul>
+                        </li>
+                            <!-- Botão -->
+                            <input type="button" id="botao" value="Cadastrar"> </input> 
+                    </ul>
+                </form>
+
+            </div>
+        </div>    
+    </div>
+
+    <!-- Integração com o arquivo javascript  -->
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
