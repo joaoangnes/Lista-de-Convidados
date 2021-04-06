@@ -2,4 +2,10 @@
 
 <p align="center"> 📃 Projeto de uma lista de convidados interativa, feito com javascript puro </p>
 
-[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/joaoangnes/Lista-de-Convidados)
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Tests](#testes)
+<!--te-->
