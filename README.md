@@ -39,7 +39,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Autor
 ---
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/74597614?s=60&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/74597614?s=400&u=ab51f4cfaef1bcd05073c2fa8475615b10271dc2&v=4" width="100px;" alt=""/>
  <br />
  <sub><b width='20px'>João Angnes</b></sub></a> <a href="https://github.com/joaoangnes"></a>
 
