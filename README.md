@@ -32,5 +32,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com carinho por João Arthur 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/)](https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=joao.angnes@gmail.com)](joao.angnes@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-João-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/)](https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/) 
+[![Gmail Badge](https://img.shields.io/badge/-joao.angnes@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=joao.angnes@gmail.com)](joao.angnes@gmail.com)
