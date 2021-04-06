@@ -4,7 +4,7 @@
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
- <a href="#features">Features</a> • 
+ <a href="#features">Ferramentas</a> • 
  <a href="#autor">Autor</a>
 </p>
 
@@ -12,14 +12,23 @@
 	✅ Finalizado ✅
 </h4>
 
-### 🛠 Tecnologias
+### ⚙️ Funcionamento
+---
+
+### 💈 Objetivo
+---
+Projeto pensado em ajudar na listagem de convidados de um evento ordenados pelo genêro do mesmo, utilizando HTML, CSS e JavaScript juntamente com o LocalStorage para armazenar os dados dos convidados cadastrados simulando um Banco de Dados.
+
+
+### 🛠 Ferramentas
 ---
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [JavaScript]
-- [HTML]
-- [CSS]
+- JavaScript
+- HTML
+- CSS
+- LocalStorage
 
 
 ### Autor
