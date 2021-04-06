@@ -18,14 +18,12 @@
 
 Projeto pensado em ajudar na listagem de convidados de um evento ordenados pelo genêro do mesmo, utilizando HTML, CSS e JavaScript juntamente com o LocalStorage para armazenar os dados dos convidados cadastrados simulando um Banco de Dados.
 
----
 
 ## 🎨 Layout
 
 Layout do projeto:
 
 
---- 
 
 ## 🛠 Ferramentas
 
@@ -37,7 +35,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - CSS
 - LocalStorage
 
----
 
 ## 🧑🏼 Autor
 
@@ -46,7 +43,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 [![Linkedin Badge](https://img.shields.io/badge/-JoãoAngnes-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/)](https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/) 
 
----
 
 ## 📝 Licença
 
@@ -54,4 +50,4 @@ Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito com carinho por João Arthur 👋🏽 [Entre em contato!](https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/)
 
----
+
