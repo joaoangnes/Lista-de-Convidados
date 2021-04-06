@@ -2,4 +2,4 @@
 
 <p align="center"> 📃 Projeto de uma lista de convidados interativa, feito com javascript puro </p>
 
-<img src="https://img.shields.io/static/v1?label=JoãoAngnes&color=7159c1"/>
+[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
