@@ -28,7 +28,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://github.com/joaoangnes">
  <img style="border-radius: 50%;" src="" width="100px;" alt=""/>
  <br />
- <sub><b>João Angnes</b></sub></a> <a href="https://github.com/joaoangnes"></a>
+ <sub><b width='20px'>João Angnes</b></sub></a> <a href="https://github.com/joaoangnes"></a>
 
 
 Feito com carinho por João Arthur 👋🏽 Entre em contato!
