@@ -33,14 +33,18 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Autor
 ---
-
-<a href="https://github.com/joaoangnes">
  <img style="border-radius: 50%;" src="" width="100px;" alt=""/>
  <br />
  <sub><b width='20px'>João Angnes</b></sub></a> <a href="https://github.com/joaoangnes"></a>
 
-
-Feito com carinho por João Arthur 👋🏽 Entre em contato!
-
 [![Linkedin Badge](https://img.shields.io/badge/-JoãoAngnes-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/)](https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/) 
-[![Gmail Badge](https://img.shields.io/badge/-joao.angnes@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=joao.angnes@gmail.com)](joao.angnes@gmail.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com carinho por João Arthur 👋🏽 [Entre em contato!](https://www.linkedin.com/in/joão-arthur-zambirão-angnes-7675a0208/)
+
+---
