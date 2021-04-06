@@ -15,6 +15,7 @@
 </h4>
 
 ### 💈 Objetivo
+
 ---
 Projeto pensado em ajudar na listagem de convidados de um evento ordenados pelo genêro do mesmo, utilizando HTML, CSS e JavaScript juntamente com o LocalStorage para armazenar os dados dos convidados cadastrados simulando um Banco de Dados.
 
@@ -26,7 +27,9 @@ Layout do projeto:
 
 
 --- 
+
 ### 🛠 Ferramentas
+
 ---
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -36,8 +39,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - CSS
 - LocalStorage
 
+---
 
 ### 🧑🏼 Autor
+
 ---
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/74597614?s=400&u=ab51f4cfaef1bcd05073c2fa8475615b10271dc2&v=4" width="100px;" alt=""/>
  <sub><b width='20px'>João Angnes</b></sub></a> <a href="https://github.com/joaoangnes"></a>
