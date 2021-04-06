@@ -3,11 +3,11 @@
 <p align="center"> 📃 Projeto de uma lista de convidados interativa, feito com javascript puro </p>
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#layout">Layout</a> •
- <a href="#ferramentas">Ferramentas</a> • 
+ <a href="#-objetivo">Objetivo</a> •
+ <a href="#-layout">Layout</a> •
+ <a href="#-ferramentas">Ferramentas</a> • 
  <a href="#autor">Autor</a>
- <a href="#Licença">Licença</a>
+ <a href="#-licenca">Licença</a>
 </p>
 
 <h4 align="center"> 
