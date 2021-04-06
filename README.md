@@ -6,8 +6,8 @@
  <a href="#-objetivo">Objetivo</a> •
  <a href="#-layout">Layout</a> •
  <a href="#-ferramentas">Ferramentas</a> • 
- <a href="#autor">Autor</a>
- <a href="#-licenca">Licença</a>
+ <a href="#autor">Autor</a> •
+ <a href="#-licença">Licença</a>
 </p>
 
 <h4 align="center"> 
