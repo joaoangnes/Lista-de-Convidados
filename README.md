@@ -12,7 +12,10 @@
 	✅ Finalizado ✅
 </h4>
 
-### Features
+### 🛠 Tecnologias
 
-- [x] Cadastro de Convidados
-- [x] Listagem de Convidados por genêro
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [JavaScript]
+- [HTML]
+- [CSS]
